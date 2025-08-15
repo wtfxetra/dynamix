@@ -1,0 +1,7 @@
+id=dynamix
+name=Dynamix
+version=v1.0.0
+versionCode=100
+author=wtfxetra
+description=Magisk Module Focused on Improving Battery and Performance for QCOM
+updateJson=https://raw.githubusercontent.com/wtfxetra/dynamix/main/update.json
