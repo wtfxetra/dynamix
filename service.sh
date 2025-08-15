@@ -31,7 +31,7 @@ write_val() {
     return 0
   fi
 }
-
+sleep 30
 write_val /proc/sys/kernel/perf_cpu_time_max_percent 2
 write_val /proc/sys/kernel/sched_autogroup_enabled 1
 write_val /proc/sys/kernel/sched_child_runs_first 0
