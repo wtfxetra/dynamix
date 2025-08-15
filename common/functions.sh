@@ -336,11 +336,11 @@ slow_step "Remounting Partition as RW"
 sleep 1
 
 # Remount partitions as read-write
-mount -o remount,rw /data
-mount -o remount,rw /product
-mount -o remount,rw /system_ext
-mount -o remount,rw /vendor
-mount -o remount,rw /
+su -c "mount -o remount,rw /data"
+su -c "mount -o remount,rw /product"
+su -c "mount -o remount,rw /system_ext"
+su -c "mount -o remount,rw /vendor"
+su -c "mount -o remount,rw /"
 
 sleep 1
 
